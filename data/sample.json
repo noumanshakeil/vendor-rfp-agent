@@ -1,0 +1,12 @@
+{
+  "project": "vendor-rfp-agent",
+  "resource": "requirements",
+  "samples": [
+    {
+      "id": "r1",
+      "text": "SSO required",
+      "weight": 5,
+      "section": "security"
+    }
+  ]
+}
