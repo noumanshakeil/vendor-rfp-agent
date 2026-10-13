@@ -1,0 +1,13 @@
+[project]
+name = "vendor-rfp-agent"
+version = "2.0.0"
+description = "RFP desk that stores requirements, drafts answers with confidence scores, and tracks review state."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
